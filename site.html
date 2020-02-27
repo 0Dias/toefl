@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Site</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">О Нас</a>
+                <a href="#">Услуги</a>
+                <a href="#">Клиенты</a>
+                <a href="#">Контакт</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        </div>
+        <div class="logo">
+            <h1>Dias Company</h1>
+         </div>
+    </div>
+    <div class="container">
+        <video autoplay loop muted playsinline src="banner.mp4">Dias</video>
+        <h1>Dias Company SHSHS</h1>
+    </div>
+
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>

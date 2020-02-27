@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.header img {
+    background-attachment: fixed;
+    width: 100%;
+    height: 933px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top:0px;
+    margin: 25px;
+}
+.word {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 45%;
+}
+.word h1 {
+    font-size: 80px;
+}
+.word p {
+    font-size: 20px;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nurzhan.css">
+</head>
+<body class="blueHour">
+	<div class="search">
+		<input id="keyword" type="text">
+		<a id="search-btn" href="javascript:;">Search</a>
+		<span id="result"></span>
+	</div>
+	<div class="container">
+		<div class="music-list">
+			<div class="title">Fuck TOEFL Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+			<div class="list">
+				<ul>
+					<li>1. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+					<li>2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit!</li>
+					<li>3. Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+					<li>4. Lorem ipsum dolor sit amet.</li>
+					<li>5. Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+					<!-- <li>6.不要浪费时间</li>
+					<li>7.不要浪费时间</li>
+					<li>8.不要浪费时间</li>
+					<li>9.不要浪费时间</li>
+					<li>10.不要浪费时间</li>
+					<li>11.不要浪费时间</li>
+					<li>12.不要浪费时间</li>
+					<li>13.不要浪费时间</li>
+					<li>14.不要浪费时间</li>
+					<li>15.不要浪费时间</li>
+					<li>16.不要浪费时间</li>
+					<li>17.不要浪费时间</li>
+					<li>18.不要浪费时间</li> -->
+					<!-- <li>19.不要浪费时间</li>
+					<li>20.不要浪费时间</li>
+					<li>21.不要浪费时间</li>
+					<li>22.不要浪费时间</li>
+					<li>23.不要浪费时间</li>
+					<li>24.不要浪费时间</li>
+					<li>25.不要浪费时间</li>
+					<li>26.不要浪费时间</li>
+					<li>27.不要浪费时间</li>
+					<li>28.不要浪费时间</li>
+					<li>29.不要浪费时间</li>
+					<li>30.不要浪费时间</li>
+					<li>31.不要浪费时间</li>
+					<li>32.不要浪费时间</li> -->
+				</ul>
+			</div>
+		</div>
+		<audio id="audio">
+			<!-- <source title="你在终点等我" data-img="http://p1.music.126.net/ddhcDeGSl9VhXJLfOsNDEA==/3433774824740403.jpg" src="http://link.hhtjim.com/163/431357712.mp3">
+			<source title="白昼之夜（纯音乐）" data-img="http://p1.music.126.net/he7P6CYpQmz8KqYSdULuOQ==/94557999994394.jpg" src="http://oc1475jft.bkt.clouddn.com/baizhouzhiye.mp3">
+			<source title="告白气球" data-img="http://p1.music.126.net/tlp3VWVQVe0Je1r-oHn91g==/17666952835430891.jpg" src="mp3/biryol.mp3"> -->
+			<!-- <source title="1" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/01.mp3"> -->
+			<!-- <source title="骄傲的少年" data-img="http://p1.music.126.net/Brn39jwEDNPVV6pNWcv_rA==/1391981724588577.jpg" src="http://link.hhtjim.com/163/408332757.mp3">
+			<source title="岁月神偷" data-img="http://p1.music.126.net/54wdQi_3rpjreY2oo2jb7w==/5998935441219557.jpg" src="http://link.hhtjim.com/163/28285910.mp3"> -->
+			<source title="01" data-img="qwerty.jpg" src="/TOEFL/7000/audio/01.mp3">
+			<source title="02" data-img="qwerty.jpg" src="/TOEFL/7000/audio/02.mp3">
+			<source title="03" data-img="qwerty.jpg" src="/TOEFL/7000/audio/03.mp3">
+			<source title="04" data-img="qwerty.jpg" src="/TOEFL/7000/audio/04.mp3">
+			<source title="05" data-img="qwerty.jpg" src="/TOEFL/7000/audio/05.mp3">
+			<source title="06" data-img="qwerty.jpg" src="/TOEFL/7000/audio/06.mp3">
+			<source title="07" data-img="qwerty.jpg" src="/TOEFL/7000/audio/07.mp3">
+			<source title="08" data-img="qwerty.jpg" src="/TOEFL/7000/audio/08.mp3">
+			<source title="09" data-img="qwerty.jpg" src="audio/09.mp3">
+			<source title="10" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="/TOEFL/7000/audio/10.mp3">
+			<source title="11" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/11.mp3">
+			<source title="12" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/12.mp3">
+			<source title="13" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/13.mp3">
+			<source title="14" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/14.mp3">
+			<source title="15" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/15.mp3">
+			<source title="16" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/16.mp3">
+			<source title="17" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/17.mp3">
+			<source title="18" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/18.mp3">
+			<source title="19" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/19.mp3">
+			<source title="20" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/20.mp3">
+			<source title="21" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/21.mp3">
+			<source title="22" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/22.mp3">
+			<source title="23" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/23.mp3">
+			<source title="24" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/24.mp3">
+			<source title="25" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/25.mp3">
+			<source title="26" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/26.mp3">
+			<source title="27" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/27.mp3">
+			<source title="28" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/28.mp3">
+			<source title="29" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/29.mp3">
+			<source title="30" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/30.mp3">
+			<source title="31" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/31.mp3">
+			<source title="32" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/32.mp3">
+			<source title="33" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/33.mp3">
+			<source title="34" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/34.mp3">
+			<source title="35" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/35.mp3">
+			<source title="36" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/36.mp3">
+			<source title="37" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/37.mp3">
+			<source title="38" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/38.mp3">
+			<source title="39" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/39.mp3">
+			<source title="40" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/40.mp3">
+			<source title="41" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/41.mp3">
+			<source title="42" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/42.mp3">
+			<source title="43" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/43.mp3">
+			<source title="44" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/44.mp3">
+			<source title="45" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/45.mp3">
+			<source title="46" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/46.mp3">
+			<source title="47" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/47.mp3">
+			<source title="48" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/48.mp3">
+			<source title="49" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/49.mp3">
+			<source title="50" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/50.mp3">
+			<source title="51" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/51.mp3">
+			<source title="52" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/52.mp3">
+			<source title="53" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/53.mp3">
+			<source title="54" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/54.mp3">
+			<source title="55" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/55.mp3">
+			<source title="56" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/56.mp3">
+			<source title="57" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/57.mp3">
+			<source title="58" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/58.mp3">
+			<source title="59" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/59.mp3">
+			<source title="60" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/60.mp3">
+			<source title="61" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/61.mp3">
+			<source title="62" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/62.mp3">
+			<source title="63" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/63.mp3">
+			<source title="64" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/64.mp3">
+			<source title="65" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/65.mp3">
+			<source title="66" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/66.mp3">
+			<source title="67" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/67.mp3">
+			<source title="68" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/68.mp3">
+			<source title="69" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/69.mp3">
+			<source title="70" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/70.mp3">
+			<source title="71" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/71.mp3">
+			<source title="72" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/72.mp3">
+			<source title="73" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/73.mp3">
+			<source title="74" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/74.mp3">
+			<source title="75" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/75.mp3">
+			<source title="76" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/76.mp3">
+			<source title="77" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/77.mp3">
+			<source title="78" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/78.mp3">
+			<source title="79" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/79.mp3">
+			<source title="80" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/80.mp3">
+			<source title="81" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/81.mp3">
+			<source title="82" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/82.mp3">
+			<source title="83" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/83.mp3">
+			<source title="84" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/84.mp3">
+			<source title="85" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/85.mp3">
+			<source title="86" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/86.mp3">
+			<source title="87" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/87.mp3">
+			<source title="88" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/88.mp3">
+			<source title="89" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/89.mp3">
+			<source title="90" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/90.mp3">
+			<source title="91" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/91.mp3">
+			<source title="92" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/92.mp3">
+			<source title="93" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/93.mp3">
+			<source title="94" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/94.mp3">
+			<source title="95" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/95.mp3">
+			<source title="96" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/96.mp3">
+			<source title="97" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/97.mp3">
+			<source title="98" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/98.mp3">
+			<source title="99" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/99.mp3">
+			<source title="100" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/100.mp3">
+			<!-- <source title="91" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg" src="audio/91.mp3"> -->
+		</audio>
+		<div class="music">
+			<div class="header">
+				<h1>Mr.Dias <small>Hello</small></h1>
+			</div>
+			<div class="fengmian">
+				<img src="qwerty.jpg" id="music-img" alt="">
+			</div>
+			<div id="title">
+				hey!
+			</div>
+			<div class="jindu">
+				<span id="music-bar">
+					<span id="load-bar"></span>
+					<span id="played-bar"></span>	
+				</span>
+				<span id="voice-bar">
+					<span id="voiced-bar"></span>
+				</span>
+				<div id="time">
+					<span id="current-time">0:00</span>
+					<span id="total-time">1</span>
+				</div>
+			</div>
+			<div class="controls">
+				<a id="xunhuan" href="javascript:;">Циркуляция</a>
+				<a id="prev" href="javascript:;"><</a>
+				<a id="play" href="javascript:;">Play</a>
+				<a id="next" href="javascript:;">></a>
+				<a id="jingyin" href="javascript:;">Без звука</a>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<a href="https://yaakovazat.com//TOEFL/" target="_blank">7000 句文本</a>
+		<a href="https://yaakovazat.com/TOEFL/" target="_blank">TOEFL其他内容</a>
+		<a href="https://yaakovazat.com/" target="_blank">关于项目</a>
+		<a href="https://yaakovazat.com/" target="_blank">小酷主页</a>
+		<!-- <a href="https://yaakovazat.com/TOEFL/" target="_blank">TOEFL</a> -->
+	</div>
+
+	<script src="/TOEFL/7000/js/music.js"></script>
+	<script>
+		// 回调函数将返回的内容添加到结果区（需要在页面加载完后加载上，为后面执行回调）
+		function jsonpcallback (rs) {
+			var resultHtml = '歌曲：<strong>' + rs.result.songs[0].name + '</strong>' + 
+							 '歌手：<strong>' + rs.result.songs[0].artists[0].name + '</strong>' +
+							 '<a href="javascript:;" id="to-play">立即播放</a>';	
+			result.innerHTML = resultHtml;
+			result.setAttribute('data-audio', rs.result.songs[0].audio);
+			result.setAttribute('data-img', rs.result.songs[0].album.picUrl);
+			result.setAttribute('data-music', rs.result.songs[0].name);
+			result.setAttribute('data-singer', rs.result.songs[0].artists[0].name);
+			result.style.opacity = '1';
+
+		};
+	</script>
+</body>
+</html>
